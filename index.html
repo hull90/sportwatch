@@ -4,48 +4,57 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/videojs-seek-buttons/dist/videojs-seek-buttons.css">
-        <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
-        <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-        <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-    <video
-        id="my-video"
-        class="video-js"
-        controls
-        preload="auto"
-        width="640"
-        height="264"
-        poster="MY_VIDEO_POSTER.jpg"
-        data-setup="{}"
-        >
-        
-        <source src="https://www.googleapis.com/drive/v3/files/1L1lnCCLHfL29b7EhsN16iipd5eeIX49E?alt=media&key=AIzaSyDoQBbllXSFPKBK34sKZUCYaepsifcX0M8" type="video/mp4" />
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/videojs-seek-buttons/dist/videojs-seek-buttons.css"
+    />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
 
-        <!-- <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" /> -->
-        
-        <p class="vjs-no-js">
-          To view this video please enable JavaScript, and consider upgrading to a
-          web browser that
-          <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-        </p>
-      
+    <video
+      id="my-video"
+      class="video-js"
+      controls
+      preload="auto"
+      width="600"
+      height="400"
+      position="absolute"
+      poster="MY_VIDEO_POSTER.jpg"
+      data-setup="{}"
+    >
+      <!-- <source src="https://www.googleapis.com/drive/v3/files/1L1lnCCLHfL29b7EhsN16iipd5eeIX49E?alt=media&key=AIzaSyDoQBbllXSFPKBK34sKZUCYaepsifcX0M8" type="video/mp4" /> -->
+
+      <source
+        src="https://vod-olympics-discovery.akamaized.net/primary/2/49f0989327b544f18664b03df2501db3/ef11fe96d6f44d03a9be7a718459a91c/hdntl=exp=1629204513~acl=/primary/2/49f0989327b544f18664b03df2501db3/ef11fe96d6f44d03a9be7a718459a91c/*~data=hdntl~hmac=5d317b110f8629466fdf1a46cd1db759c0dd65fb75b7c8699ce31b35360707e7/fe10dd8192754cb5b8131053f80b5c54/c7f39bd0e4214933ad03249dad3e2712/db6e72f2c3d64b029e99f005ba0ea337/index_2.m3u8"
+        type="application/x-mpegURL"
+      />
+
+      <!-- <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" /> -->
+
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank"
+          >supports HTML5 video</a
+        >
+      </p>
     </video>
-    
     <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/videojs-seek-buttons/dist/videojs-seek-buttons.min.js"></script>
-    
-    </body>
+  </body>
 </html>
-
